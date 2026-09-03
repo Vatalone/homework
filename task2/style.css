@@ -1,0 +1,63 @@
+.wrapper{
+	margin: 100px auto;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+.titles{
+	display: flex;
+	flex-direction: column;
+	h1{
+		font-size: 40px;
+	}
+}
+
+.image{
+	display: flex;
+	justify-content: center;
+}
+
+.lessons {
+	display: flex;
+	flex-direction: column;
+
+	ul{ 
+		padding-left: 0;
+
+		li {
+		list-style: none;
+		padding-left: 15px;
+		position: relative;
+		.circle{
+			position: absolute;
+			left: 0px;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 4px;
+			height: 4px;
+			border-radius: 50%;
+			background-color: #5b54e6;
+		}
+		}
+	}
+}
+
+.video {
+	display: flex;
+	flex-direction: column;
+	video{
+		align-self: center;
+	}
+}
+.image img, .video video {
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #5b54e6;
+}
+h1, h2{
+	text-transform: uppercase;
+}
