@@ -1,0 +1,41 @@
+*{
+	font-family: sans-serif;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 300px;
+	padding: 0 20px 20px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+.input {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+
+	label {
+		font-size: 20px;
+	}
+
+	input, textarea {
+		padding: 5px;
+		border-radius: 5px;
+		border: 2px solid black;
+	}
+
+	textarea {
+		resize: vertical;
+		max-height: 150px;
+		min-height: 25px;
+	}
+
+}
+
+.submit-btn{
+	width: 120px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Форма обратки</title>
+</head>
+<body>
+	<form>
+		<h2>Ваши личные данные</h2>
+		<div class="input-name input">
+			<label for="name">Ваше имя</label>
+			<input name="Имя" id="name" type="text" required placeholder="Имя">
+		</div>
+		<div class="input-age input">
+			<label for="age">Ваш возраст</label>
+			<input name="Возраст" id="age" type="number" required placeholder="Возраст">
+		</div>
+		<div class="input-phone input">
+			<label for="phone">Ваш номер телефона</label>
+			<input name="Телефон" id="phone" type="tel" required placeholder="Номер телефона">
+		</div>
+		<div class="input-email input">
+			<label for="email">Ваша почта</label>
+			<input name="Почта" id="email" type="email" required placeholder="Почта">
+		</div>
+		<div class="input-mes input">
+			<label for="mes">Сообщение</label>
+			<textarea name="Сообщение" id="mes" required placeholder="Ваше сообщение"></textarea>
+		</div>
+		<div class="input-checkbox">
+			<label><input type="checkbox" required> Я принимаю правила</label>
+		</div>
+		<input class="submit-btn" type="submit" value="Отправить">
+	</form>
+</body>
+</html>
