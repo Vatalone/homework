@@ -30,7 +30,10 @@ form {
 		max-height: 150px;
 		min-height: 25px;
 	}
+}
 
+.input-checkbox {
+	cursor: pointer;
 }
 
 .submit-btn{
@@ -38,4 +41,5 @@ form {
 	padding: 10px 20px;
 	border: none;
 	border-radius: 10px;
+	cursor: pointer;
 }
