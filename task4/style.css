@@ -32,7 +32,7 @@ form {
 	}
 }
 
-.input-checkbox {
+.input-checkbox label {
 	cursor: pointer;
 }
 
